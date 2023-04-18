@@ -11,8 +11,6 @@ app = Flask(__name__, static_folder='templates')
 def home():
     return render_template('home.html')
 
-
-@app.route('/predict', methods=['POST'])
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get user input values
