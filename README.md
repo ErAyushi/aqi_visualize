@@ -1,4 +1,4 @@
-##Air Quality Index Heat Map
+Air Quality Index Heat Map
 
 This Python script generates a heat map to visualize Air Quality Index (AQI) data using the Folium library. The AQI data is loaded from a CSV file and plotted on the heat map.
 Requirements
@@ -7,7 +7,7 @@ Requirements
     Folium library
     Pandas library
     
-#Data Format
+Data Format
 
 The AQI data should be in a CSV file with the following columns:
 
@@ -15,6 +15,6 @@ The AQI data should be in a CSV file with the following columns:
     longitude: Longitude of the location
     aqi: Air Quality Index value
    
- #Credits
+Credits
 
 This script was created by ErAyuhsi as a part of "A Comparative Study of Various Machine Learning Algorithms for Prediction of Air Quality Index (AQI) of Indian Cities".
