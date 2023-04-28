@@ -8,7 +8,7 @@ app = Flask(__name__, static_folder='templates')
 
 @app.route('/')
 def home():
-    return render_template('home2.html')
+    return render_template('home.html')
 
 
 @app.route('/predict', methods=['POST'])
@@ -92,7 +92,7 @@ def predict():
     map.save('templates/map.html')
     # Add markers for each city with prediction and coordinate
 
-    return render_template('home2.html', predictions=predictions)
+    return render_template('home.html', predictions=predictions)
 
 
 if __name__ == '__main__':
